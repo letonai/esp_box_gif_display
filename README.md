@@ -14,3 +14,5 @@ copy the folder mygif into the root folder of you ESP-S3-BOX and add the script 
     mygif         = ['mygif'        ,30,0.010] 
     choices = [bella,mygiff]
 ```
+
+![ESP-S3-BOX](./esp.jpg?raw=true "Title")

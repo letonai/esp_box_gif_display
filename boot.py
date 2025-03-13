@@ -14,7 +14,6 @@ import gc
 import random
 import time
 import tft_config
-import st7789
 import machine
 
 gc.enable()
@@ -35,7 +34,7 @@ def main():
     thatsallfolks = ['thatsallfolks',36,0.035]
     bella         = ['bella'        ,32,0.055]
     
-    choices = [homer,pikachu,win95,pika_slap,dwight_wig,cuttingcanada,thatsallfolks,bella]
+    choices = [bella]
     
     current = choices[random.randint(0, len(choices)-1)]
     
